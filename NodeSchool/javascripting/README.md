@@ -1,3 +1,4 @@
-Visit the following links for more informations:
-1) https://nodeschool.io/
-2) https://github.com/workshopper/javascripting
+1) Install Node.js from https://nodejs.org/en/
+2) Open your terminal and run this command: npm install -g javascripting
+3) Open your terminal and run the following command: javascripting
+4) Follow the guides in the menu
