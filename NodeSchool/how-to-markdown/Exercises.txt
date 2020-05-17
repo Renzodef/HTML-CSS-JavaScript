@@ -1,0 +1,146 @@
+1) HELLO WORLD
+  You first challenge is pretty simple. Just create a new file (for example
+  using touch) and add a single line:
+
+     Hello, world!
+
+  If you already did this, run how-to-markdown verify to verify your
+  solution or how-to-markdown run to run your file in the browser.
+
+//////////////////////////////////////////////////////////////////////////////////////////
+
+2) HEADINGS
+  Please create a first-level heading with Markdown is awesome! and then
+  verify your solution.
+
+//////////////////////////////////////////////////////////////////////////////////////////
+
+3) EMPHASIS
+  Create a new file and add a first-level heading at the top of your file.
+  This heading should contain Emphasis as text.
+
+  Below the heading, add this text:
+
+     It's very easy to use italic, bold and combined emphasis in Markdown!
+
+  Please, mark italic, bold and combined using relevant styles.
+
+//////////////////////////////////////////////////////////////////////////////////////////
+
+4) LISTS
+  In the new file add a first-level heading with Lists as content.
+
+  Try to write your own list. Please create a new file and create an
+  unordered list in it:
+
+   » One   » 1.1
+           » 1.2
+
+   » Two   » 2.1
+           » 2.2
+
+   » Three
+   » Four
+   » Five
+
+  When you are done, please verify your solution.
+
+//////////////////////////////////////////////////////////////////////////////////////////
+
+5) LINKS
+  At the top of the file, add a first-level heading with Links text.
+
+  Here you have some text:
+
+     how-to-markdown is a workshopper that teaches you how to write Markdown.
+
+  Please, copy this text to the new file and mark 'how-to-markdown' phrase
+  as reference-style link with reference to itself. Below in your file, add
+  a relevant reference which will reference to the //git.io/how-to-markdown.
+
+  When you are done, please, verify your solution.
+
+//////////////////////////////////////////////////////////////////////////////////////////
+
+6) IMAGES
+  Add a first-level heading with Images text inside.
+
+  Let's say we have a Markdown logo on this URL:
+  http://bit.do/how-to-markdown
+
+  Below, you should create a inline-style image with Markdown logo as
+  alternate text and http://bit.do/how-to-markdown as URL.
+  
+//////////////////////////////////////////////////////////////////////////////////////////
+
+7) BLOCKQUOTES
+  Start the new file with Blockquotes as heading.
+
+  Add a quote from William Shakespeare's play Hamlet:
+
+   > To be, or not to be, that is the question.
+
+  And add an original author to the quote right on the next line after this
+  quote. When you are done, verify your solution.
+
+  
+//////////////////////////////////////////////////////////////////////////////////////////
+
+8) CODE
+  Add  Code as the first-level heading in your file.
+
+  Add this JavaScript code with relevant syntax highlighting:
+
+     const add = (a, b) => a + b;
+
+  Don't forget to verify your solution.
+
+//////////////////////////////////////////////////////////////////////////////////////////
+
+9) TABLES
+  Add a first-level heading that contains the name of this exercise.
+
+  Reproduce this table:
+
+ Year World population
+ ---- ----------------
+ 1960 3 Billion
+ 1980 4 Billion
+ 2000 6 Billion
+
+  The Year column should be centered.
+
+//////////////////////////////////////////////////////////////////////////////////////////
+
+10) HORIZONTAL RULES
+  Please add a Horizontal rules heading and add a horizontal rule right
+  after this heading.
+
+  That's it. Just verify your solution.
+
+
+//////////////////////////////////////////////////////////////////////////////////////////
+
+11) HTML
+  Add HTML as the first-level heading.
+
+  Below, use HTML for centering this text:
+
+     HTML in Markdown
+
+  Verify your solution.
+
+//////////////////////////////////////////////////////////////////////////////////////////
+
+12) GFM
+  Add a first-level heading that contains GFM.
+
+  Please create a to-do list with these tasks:
+
+   » hey
+   » ho
+   » let's go
+
+  Then mark item ho as completed.
+
+  Verify your solution.
