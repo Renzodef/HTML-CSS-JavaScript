@@ -12,7 +12,7 @@ sudo npm install -g cordova
 
 ## CREATION OF THE PROJECT
 Create the project from terminal in the directory you like with: <br>
-cordova create "Currency Converter" <br> 
+cordova create App <br> 
 Then: <br>
 1) In the root folder of the project change the config.xml file with the one you have here.
 2) In the folder www of the project change the index.html file with the one you have here.
