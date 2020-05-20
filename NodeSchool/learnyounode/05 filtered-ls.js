@@ -30,3 +30,8 @@ fs.readdir(dirpath, (err, files) => {
     }
   });
 });
+// Example launching from the command line:
+// node "05 filtered-ls.js" Folder txt
+// Where txt is the extension you want
+// If Folder is in the same folder of the .js file
+// If it isn't provide the full path

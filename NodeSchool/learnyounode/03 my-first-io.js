@@ -22,3 +22,7 @@ const file = fs.readFileSync(process.argv[2]).toString();
 // We use lenght-1 so we won't count the newline in the last line
 const lines = file.split('\n').length - 1;
 console.log(lines);
+// Example launching from the command line:
+// node "03 my-first-io.js" File.txt
+// If the file is in the same folder of the .js file
+// If it isn't provide the full path

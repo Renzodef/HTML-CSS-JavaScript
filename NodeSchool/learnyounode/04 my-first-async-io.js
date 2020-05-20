@@ -19,3 +19,7 @@ fs.readFile(process.argv[2], 'utf8', (error, data) => {
   const lines = data.split('\n').length - 1;
   console.log(lines);
 });
+// Example launching from the command line:
+// node "04 my-first-async-io.js" File.txt
+// If the file is in the same folder of the .js file
+// If it isn't provide the full path
