@@ -5,12 +5,13 @@ npm install electron -g<br>
 (If you are on Linux or Mac add "sudo" before the command)
 
 ## RUN THE APP
-Run the project from terminal with:<br>
+- Run the project from terminal with:<br>
 electron .<br>
 or<br>
 electron app.js<br>
 or<br>
 npm start
+- Then you should see a window with an "Hello World" displayed plus some informations about the used technologies.
 
 ## BUILD A WINDOWS EXECUTABLE
 - Install from terminal:<br>
