@@ -2,3 +2,7 @@ NodeSchool/node_modules
 NodeSchool/.eslintrc.json
 NodeSchool/package.json
 NodeSchool/package-lock.json
+Electron/HelloWorld/HelloWorld-win32-x64
+Electron/CatPicture/node_modules
+Electron/CatPicture/package-lock.json
+Electron/CatPicture/CatPicture-win32-x64

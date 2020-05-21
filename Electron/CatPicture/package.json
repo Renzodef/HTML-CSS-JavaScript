@@ -1,0 +1,11 @@
+{
+  "name": "catpicture",
+  "version": "0.1.0",
+  "main": "app.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "dependencies": {
+    "cat-picture": "^5.1.2"
+  }
+}
