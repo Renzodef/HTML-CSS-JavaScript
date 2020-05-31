@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+
+<body>
+    <script type="text/javascript">
+        // Creating the object renzo
+        let renzo = {
+            grades: [8, 9, 9],
+            add: 1
+        };
+        // Creating the function boh
+        function boh() {
+            console.log(this.grades);
+        };
+        // Assigning the "this" in the function boh to the object renzo
+        // This is made with the "call" function
+        // To visualize the output
+        // open the .html file in a browser,
+        // press F12 and click to console
+        boh.call(renzo);
+    </script>
+</body>
+
+</html>

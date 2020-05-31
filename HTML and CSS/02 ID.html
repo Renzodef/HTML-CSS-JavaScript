@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ID</title>
+    <script>
+        let counter = 0;
+        function count() {
+            counter++;
+            // # is needed if we are referring to an id of an HTML's element
+            document.querySelector("#counter").innerHTML = counter;
+        }     
+    </script>
+</head>
+
+<body>
+    <!--Element with an ID-->
+    <h1 id="counter">0</h1>
+    <!--When the button is clicked, the number will increase of 1-->
+    <button onclick="count()">
+        click</button>
+</body>
+
+</html>

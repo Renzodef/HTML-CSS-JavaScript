@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <script>
+        // When the DOM is loaded the function can be used
+        document.addEventListener("DOMContentLoaded", function () {
+            // When there is a submit
+            document.querySelector("#nameform").onsubmit = function (e) {
+                // preventDefault won't let the page reload after the activation of the function,
+                // so the name contained in the form won't be resetted
+                e.preventDefault();
+                // Assigning to a variable the name associated to an input
+                const name = document.querySelector("#nameinput").value;
+                // If the input is empty
+                if (name == "") {
+                    alert("You have to insert a Name!")
+                }
+                // If the input is not empty
+                else {
+                    alert("Your name is " + name);
+                    // We make the input returns to its initial state without reloading the page
+                    document.querySelector("#nameinput").value = "";
+                }
+            }
+        })
+    </script>
+</head>
+
+<body>
+    <!--Form with input and submit-->
+    <form id="nameform">
+        <input id="nameinput" type="text" placeholder="Insert your Name!">
+        <input type="submit">
+    </form>
+</body>
+
+</html>

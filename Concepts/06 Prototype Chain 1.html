@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+
+<body>
+    <script type="text/javascript">
+        let obj1 = {
+            name: "Renzo"
+        };
+        // It returns a default object that contains a lot of default properties,
+        // as constructor or toString
+        console.log(Object.prototype);
+        // JavaScript search the property in the current object
+        // If this object doesn't have the property
+        // then JavaScript climb back the prototype chain
+        // and search the property in Object.prototype
+        // So here the log returns object.Object
+        // If Object.prototype wouldn't have the property toString 
+        // the result would be undefined
+        console.log(obj1.toString());
+        // obj1 became the prototype of obj2
+        let obj2 = Object.create(obj1);
+        // Creating the property name of obj2
+        obj2.name = "Michele";
+        // Here it returns Michele because obj2 has the property name
+        console.log(obj2.name);
+        // obj2 became the prototype of obj3
+        let obj3 = Object.create(obj2);
+        // Here it returns again ritorna Michele,
+        // because obj3 doesn't have a property name,
+        // so JavaScript climb back the prototype chain 
+        // and find the property name in obj2
+        console.log(obj3.name);
+        // Here it returns undefined,
+        // because JavaScript climb back the prototype chain 
+        // until Object.prototype withouth finding this property
+        console.log(obj3.surname);
+        // To visualize the output
+        // open the .html file in a browser,
+        // press F12 and click to console
+    </script>
+</body>
+
+</html>

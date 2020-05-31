@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+
+<body>
+    <script type="text/javascript">
+        function User() { };
+        // User.prototype of the function User has the property constructor
+        console.log(User.prototype);
+        let renzo = new User;
+        // This returns true
+        // Because the prototype of renzo is User.prototype
+        console.log(Object.getPrototypeOf(renzo) == User.prototype);
+        // To visualize the output
+        // open the .html file in a browser,
+        // press F12 and click to console
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+
+<body>
+    <!-- A simple link -->
+    <a href="http://www.google.it">Web Page</a>
+    <script type="text/javascript">
+        // JavaScript is a blocking language
+        // This is a function that requires some seconds to be executed
+        // During its execution time
+        // the browser won't be available and so the link and all the web page
+        // because all these are blocked by JavaScript while the function is executed
+        for (var i = 0; i < 3000000000; i++) {
+            i += 1;
+        }
+        console.log(i)
+    </script>
+</body>
+
+</html>

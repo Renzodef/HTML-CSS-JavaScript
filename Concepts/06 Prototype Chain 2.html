@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+
+<body>
+    <script type="text/javascript">
+        let obj1 = {};
+        let obj2 = {};
+        let obj3 = {};
+        // Set obj2 as prototype of obj3
+        Object.setPrototypeOf(obj3, obj2)
+        // Set obj1 as prototype of obj2
+        Object.setPrototypeOf(obj2, obj1)
+        // Defining properties
+        obj1.whoAmI = "obj1";
+        obj2.whoAmI = "obj2";
+        obj3.whoAmI = "obj3";
+        // This returns the prototype of obj3
+        // That is obj2
+        console.log(obj3.__proto__);
+        // This returns the prototype of the prototype of obj3
+        // That is obj1
+        console.log(obj3.__proto__.__proto__);
+        // This returns the prototype of the prototype of the prototype of obj3
+        // That is object.Prototype
+        console.log(obj3.__proto__.__proto__.__proto__);
+        // This returns null
+        console.log(obj3.__proto__.__proto__.__proto__.__proto__);
+        // __proto__ is deprecated, so it's better to use getPrototypeOf
+        // This returns obj1
+        console.log(Object.getPrototypeOf(obj2));
+        // To visualize the output
+        // open the .html file in a browser,
+        // press F12 and click to console
+    </script>
+</body>
+
+</html>

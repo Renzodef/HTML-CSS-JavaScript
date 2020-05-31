@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+
+<body>
+    <script type="text/javascript">
+        // "this" here returns the global object window
+        console.log(this);
+        function fn() {
+            // "this" in a function returns the context,
+            // so here it returns the global object window
+            console.log(this)
+        }
+        // Creating an object user
+        let user = {
+            name: "Renzo",
+            fn1: function () {
+                // "this" here returns the object user,
+                // since the context here is the object user
+                // and not the global object window
+                console.log(this);
+            },
+            fn2: function () {
+                // "this" here returns the value of the property name of the object user
+                console.log(this.name);
+            },
+            fn3: () => {
+                // This is the main difference between normal functions and arrow functions,
+                // because "this" in an arrow function returns the context of the context,
+                // so here it returns the global object window and not the object user
+                console.log(this);
+            },
+            fn4: function () {
+                let fn5 = () => {
+                    // Here we have a function in another function,
+                    // so, since this is an arrow function,
+                    // and "this" returns the context of the context,
+                    // here it returns the object user
+                    console.log(this);
+                };
+                fn5();
+            }
+        };
+        // Calling the functions
+        // To visualize the output
+        // open the .html file in a browser,
+        // press F12 and click to console
+        fn();
+        user.fn1();
+        user.fn2();
+        user.fn3();
+        user.fn4();
+    </script>
+</body>
+
+</html>
