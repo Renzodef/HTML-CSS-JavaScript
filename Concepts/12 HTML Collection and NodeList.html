@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Collection and NodeList</title>
+    <style>
+        div {
+            background-color: red;
+        }
+    </style>
+</head>
+
+<body>
+    <section id="section1">
+        <div>Div 1</div>
+        <div>Div 2</div>
+        <div>Div 3</div>
+    </section>
+    <script type="text/javascript">
+        // Assigning to a variable the 'section1' HTML element
+        let section = document.getElementById('section1');
+        // Printing to the console
+        console.log(section)
+        // Assigning to a variable the children of the section1 element
+        // This variable will return an HTML Collection
+        children = section.children;
+        // Assigning to a variable the children of the section1 element
+        // This variable will return a NodeList
+        children1 = document.querySelectorAll('#section1 div')
+        // Creating another dynamic div element in section1
+        section.appendChild(document.createElement('div'));
+        // This will return an HTML Collection containing 4 div
+        // Because section.children recognize the new div created
+        console.log(children);
+        // This will return a NodeList containing 3 div
+        // Because document.querySelectorAll doesn't recognize the new div created
+        // Then the difference between a NodeList and an HTML Collection
+        // is the the first one doesn't recognize the element created dynamically
+        console.log(children1);
+        // To visualize the output
+        // open the .html file in a browser,
+        // press F12 and click to console
+    </script>
+</body>
+
+</html>

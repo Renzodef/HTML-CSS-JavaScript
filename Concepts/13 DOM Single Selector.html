@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM Single Selector</title>
+<body>
+    <section id="section1" class="section">
+        <div>Div 1</div>
+        <div>Div 2</div>
+        <div>Div 3</div>
+    </section>
+    <script type="text/javascript">
+        // Assigning to a variable the 'section1' HTML element
+        let section = document.getElementById('section1');
+        // Printing the id of the selected element (section1)
+        console.log(section.id) 
+        // Printing the class of the selected element (section)
+        console.log(section.className)
+        // Printing the number of child elements of the selected element (3)
+        console.log(section.childElementCount)
+        // Printing a NodeList containing the child elements of the selected element
+        console.log(section.childNodes)
+        // Printing an HTML Collection containing the child elements of the selected element
+        console.log(section.children)
+        // Printing the height of the selected element
+        console.log(section.clientHeight)
+        // Printing the width of the selected element
+        console.log(section.clientWidth)
+        // Changing the background color of the selected element
+        section.style.backgroundColor = "purple";
+        // Selecting the first children of the section element
+        let div1 = section.children[0]
+        // Changing the text of the selected div
+        div1.innerText = "First Div";
+        // To visualize the output
+        // open the .html file in a browser,
+        // press F12 and click to console
+    </script>
+</body>
+
+</html>
