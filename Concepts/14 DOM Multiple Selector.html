@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM Multiple Selector</title>
+
+<body>
+    <section id="section1" class="section">
+        <div class="c1">Div 1</div>
+        <div class="c1">Div 2</div>
+        <div class="c1">Div 3</div>
+    </section>
+    <script type="text/javascript">
+        // Selecting all the elements with class c1
+        let c1 = document.getElementsByClassName('c1')
+        // Return the HTML Collection containing the elements
+        console.log(c1)
+        // Transforming the HTML Collection in array
+        c1 = Array.from(c1)
+        // Returning an array containing the elements but with reverse positions
+        // To see which element is the index referencing, go in the web console (with F12),
+        // click on the array or on the HTML Collection and then go with the mouse
+        // on the string related to the element.
+        // You'll see then the element highlighted in the web page
+        console.log(c1.reverse())
+        // Selecting all the elements with Tag div
+        let c2 = document.getElementsByTagName('div')
+        // Return the HTML Collection containing the elements
+        console.log(c2)
+        // To visualize the output
+        // open the .html file in a browser,
+        // press F12 and click to console
+    </script>
+</body>
+
+</html>

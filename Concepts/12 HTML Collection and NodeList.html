@@ -19,7 +19,7 @@
         <div>Div 3</div>
     </section>
     <script type="text/javascript">
-        // Assigning to a variable the 'section1' HTML element
+        // Assigning to a variable the element with id 'section1'
         let section = document.getElementById('section1');
         // Printing to the console
         console.log(section)
@@ -27,7 +27,8 @@
         // This variable will return an HTML Collection
         children = section.children;
         // Assigning to a variable the children of the section1 element
-        // This variable will return a NodeList
+        // This variable will return a NodeList and not an HTML Collection
+        // querySelectorAll uses CSS Selector an you can see below
         children1 = document.querySelectorAll('#section1 div')
         // Creating another dynamic div element in section1
         section.appendChild(document.createElement('div'));
