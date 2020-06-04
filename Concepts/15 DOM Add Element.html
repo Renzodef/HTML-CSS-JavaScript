@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM Multiple Selector</title>
+
+<body>
+    <section id="section1" class="section">
+        <div class="c1">Div 1</div>
+        <div class="c1">Div 2</div>
+        <div class="c1">Div 3</div>
+    </section>
+    <script type="text/javascript">
+        // Selecting all the elements with class c1
+        let c1 = document.getElementById('section1');
+        // Creating a new div element
+        let new_div = document.createElement("div");
+        // The text to add in the new div
+        let text = document.createTextNode("Added Element")
+        new_div.appendChild(text)
+        c1.prepend(new_div)
+        // To visualize the output
+        // open the .html file in a browser
+        // and you'll see in the web page the added element
+    </script>
+</body>
+
+</html>
