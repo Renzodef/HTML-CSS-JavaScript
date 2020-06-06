@@ -10,9 +10,9 @@ It contains projects and guides on how to build executable desktop files with th
 This framework is open source and allows software programmers to build desktop GUI applications using web technologies by combining the Chromium rendering engine and the Node.js runtime.<br>
 Electron is the main GUI framework behind several notable open-source projects including Atom, GitHub Desktop, Visual Studio Code and many others.
 
-## HTML and CSS
-It contains examples of JavaScript's interactions with HTML and CSS in a web page.
-
 ## NodeSchool
 It contains scripts related to the open source workshops that can be found in the website https://nodeschool.io/.<br>
 The aim of these workshops is to teach the basics of JavaScript and other things as Node.js and HTML.
+
+## Templates
+It contains templates of elements to use in other projects with interactions between HTML, CSS and JavaScript.

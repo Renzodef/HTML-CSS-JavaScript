@@ -1,8 +1,17 @@
 <!DOCTYPE html>
 <html lang="it" dir="ltr">
+
 <head>
     <meta charset="utf-8">
     <style media="screen">
+        .global {
+            position: fixed;
+            top: 50%;
+            left: 50%;
+            -webkit-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+        }
+
         /*CSS of the box defined in the body*/
         #box {
             width: 200px;
@@ -22,23 +31,25 @@
     </script>
     <title>CSS</title>
 </head>
+
 <body>
-    <!--Creating the box-->
-    <div id="box">
+    <div class="global">
+        <!--Creating the box-->
+        <div id="box">
+        </div>
+
+        <!--Various options to select-->
+        <select id="color-change">
+            <option selected disabled>Select a Color</option>
+            <option value="red">Red</option>
+            <option value="orange">Orange</option>
+            <option value="green">Green</option>
+            <option value="blue">Blue</option>
+            <option value="purple">Purple</option>
+            <option value="grey">Grey</option>
+            <option value="black">Black</option>
+        </select>
     </div>
- 
-    <!--Various options to select-->
-    <select id="color-change">
-        <option selected disabled>Select a Color</option>
-        <option value="red">Red</option>
-        <option value="orange">Orange</option>
-        <option value="green">Green</option>
-        <option value="blue">Blue</option>
-        <option value="purple">Purple</option>
-        <option value="grey">Grey</option>
-        <option value="black">Black</option>
-    </select>
-    <!--Horizontal line-->
-    <hr>
 </body>
+
 </html>

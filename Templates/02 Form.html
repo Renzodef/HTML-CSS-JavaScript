@@ -4,7 +4,15 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Form</title>
+    <style>
+        div {
+            position: fixed;
+            top: 50%;
+            left: 50%;
+            -webkit-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+        }
+    </style>
     <script>
         // When the DOM is loaded the function can be used
         document.addEventListener("DOMContentLoaded", function () {
@@ -31,11 +39,13 @@
 </head>
 
 <body>
-    <!--Form with input and submit-->
-    <form id="nameform">
-        <input id="nameinput" type="text" placeholder="Insert your Name!">
-        <input type="submit">
-    </form>
+    <div>
+        <!--Form with input and submit-->
+        <form id="nameform">
+            <input id="nameinput" type="text" placeholder="Insert your Name!">
+            <input type="submit">
+        </form>
+    </div>
 </body>
 
 </html>
