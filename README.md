@@ -1,5 +1,5 @@
 ## Concepts 
-It contains examples and explanations of intermediate and advanced concepts regarding the JavaScript Engine, such as Prototype Chain, Hoisting, Callback Queue and many others.
+It contains examples and explanations of intermediate and advanced concepts regarding the DOM (Document Object Model) and the JavaScript Engine, such as Prototype Chain, Hoisting, Callback Queue, Promises and many others.
 
 ## Cordova
 It contains projects and installable .apk files made with the framework Apache Cordova. <br>

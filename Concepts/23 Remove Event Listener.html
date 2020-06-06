@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Remove Event Listener</title>
+</head>
+
+<body>
+    <button id="button1">BUTTON</button>
+    <script>
+        // Selecting the button
+        let button = document.getElementById('button1');
+        let click = 0;
+        // When the button is clicked 
+        // in the console we can visualize "click" plus the number of clicks
+        button.addEventListener('click', function abc(event) {
+            click++;
+            console.log("Click " + click)
+            if (click >= 5) {
+                // When the button is clicked for 5 times or more
+                // the event Click will be removed
+                // and nothing will be printed in the console
+                button.removeEventListener('click', abc);
+            }
+        })
+
+        // To visualize the output
+        // open the .html file in a browser
+        // press F12 and click to console
+        // Then click on the button more than 5 times
+        // and view the output in the console
+    </script>
+</body>
+
+</html>

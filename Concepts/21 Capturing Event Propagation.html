@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Capturing Event Propagation</title>
+
+<body>
+    <section id="section1" class="section">
+        <div class="class1">Div 1</div>
+        <div>Div 2</div>
+        <div>Div 3</div>
+    </section>
+    <script type="text/javascript">
+        // The Even Listener Propagation is from bottom to up 
+        // by default and is called Bubbling Event Propagation
+        // So if there more events associated to the same action
+        // like in this .html file when you click the div1 element
+        // the first one that will be printed in the console is 
+        // the last one defined in the script
+        // But if we put true as it's showed below after the function
+        // related to the Event Listener, then the Event Propagation
+        // will not be the default one, but the capturing one,
+        // and the first event printed in the console will be
+        // the first that has a Capturing Event Propagation
+
+        // Global Event Listener when you click somewhere in the page
+        // but with true we define a Capturing Event Propagation
+        document.addEventListener('click', () => {
+            console.log("You clicked somewhere in the page!")
+        }, true)
+        // Selecting the first div in the element with id section1
+        let c1 = document.querySelector("#section1 > div")
+        // Adding an Event Listener
+        // When the div1 is clicked
+        // something will be printed in the console
+        c1.addEventListener('click', () => {
+            console.log("You clicked the div!")
+        })
+        // To visualize the output
+        // open the .html file in a browser
+        // press F12 and click to console
+        // Then click on div1 and visualize the output in the console
+
+        // Output:
+        // You clicked somewhere in the page!
+        // You clicked the div!
+    </script>
+</body>
+
+</html>

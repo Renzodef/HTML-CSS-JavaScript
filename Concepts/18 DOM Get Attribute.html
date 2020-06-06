@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM Get Attribute</title>
+
+<body>
+    <section id="section1" class="section">
+        <div class="class1">Div 1</div>
+        <div>Div 2</div>
+        <div>Div 3</div>
+    </section>
+    <script type="text/javascript">
+        // Selecting the first div in the element with id section1
+        let c1 = document.querySelector("#section1 > div")
+        // It returns the name of the class attribute of c1
+        console.log(c1.getAttribute("class")) // class1
+        // It returns a DOMTokenList containing informations about the 
+        // class attribute of c1 and the prototype with a list of
+        // every callable function on classList
+        console.log(c1.classList)
+        // To visualize the output
+        // open the .html file in a browser
+        // press F12 and click to console
+    </script>
+</body>
+
+</html>

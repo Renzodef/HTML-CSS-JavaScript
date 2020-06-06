@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prevent Default</title>
+</head>
+
+<body>
+    <a href="https://www.google.com">
+        <button id="button1">BUTTON</button>
+    </a>
+    <script>
+        // The preventDefault() method is used to prevent the browser 
+        // from executing the default action of the selected element
+        // This code will prevents the browser from going to another page
+        // after clicking the button
+
+        // Selecting the button
+        let button = document.getElementById('button1');
+
+        button.addEventListener("click", function (e) {
+
+            e.preventDefault()
+        });
+
+
+        // To visualize the output
+        // open the .html file in a browser
+        // press F12 and click to console
+        // Then click on the button 
+        // and verify that the browser won't redirect 
+        // to another page
+    </script>
+</body>
+
+</html>

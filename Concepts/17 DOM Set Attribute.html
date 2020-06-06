@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>DOM Multiple Selector</title>
+    <title>DOM Set Attribute</title>
 
 <body>
     <section id="section1" class="section">
@@ -15,13 +15,15 @@
     <script type="text/javascript">
         // Selecting all the elements with class c1
         let c1 = document.getElementById('section1');
-        // Creating a new div element
-        let new_div = document.createElement("div");
+        // Creating a new "a" element 
+        let new_div = document.createElement("a");
         // The text to add in the new div
         let text = document.createTextNode("Added Element")
+        // Adding the attribute href with link at the Google web page
+        new_div.setAttribute("href", "https://www.google.com/")
         new_div.appendChild(text)
-        // Prepend will ad the element as the first in the section
-        c1.prepend(new_div)
+        // Append will ad the element as the last in the section
+        c1.append(new_div)
         // To visualize the output
         // open the .html file in a browser
         // and you'll see in the web page the added element
