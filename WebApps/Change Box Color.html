@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+
+    <!--CSS-->
+    <style>
+        .global {
+            position: fixed;
+            top: 50%;
+            left: 50%;
+            -webkit-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+        }
+
+        /*CSS of the box defined in the body*/
+        #box {
+            width: 200px;
+            height: 200px;
+            border: 3px solid black;
+        }
+    </style>
+
+    <!--JavaScript-->
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            // Interacting with the element with the ID color-change
+            document.querySelector('#color-change').onchange = function () {
+                // Passing to the box the value of the color choosed
+                // So this is an interaction between JavaScript and CSS
+                document.querySelector('#box').style.background = this.value;
+            };
+        });
+    </script>
+
+</head>
+
+<body>
+    <div class="global">
+        <!--Creating the box-->
+        <div id="box">
+        </div>
+
+        <!--Various options to select-->
+        <select id="color-change">
+            <option selected disabled>Select a Color</option>
+            <option value="red">Red</option>
+            <option value="orange">Orange</option>
+            <option value="green">Green</option>
+            <option value="blue">Blue</option>
+            <option value="purple">Purple</option>
+            <option value="grey">Grey</option>
+        </select>
+    </div>
+</body>
+
+</html>

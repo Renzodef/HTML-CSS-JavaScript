@@ -1,7 +1,3 @@
-NodeSchool/node_modules
-NodeSchool/.eslintrc.json
-NodeSchool/package.json
-NodeSchool/package-lock.json
 Electron/HelloWorld/HelloWorld-win32-x64
 Electron/CatAnnotation/node_modules
 Electron/CatAnnotation/package-lock.json
