@@ -15,7 +15,7 @@ Create the project from terminal in the directory you like with: <br>
 cordova create App <br> 
 Then: <br>
 1) In the root folder of the project change the config.xml file with the one you have here.
-2) In the folder www of the project change the index.html file with the one you have here.
+2) In the folder www of the project change the index.html file with the .html, .css and .js files you have here.
 3) In the folder /www/img of the project change the logo.png file with the one you have here.
 
 ## BUILD THE .APK FILE

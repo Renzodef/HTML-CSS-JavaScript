@@ -1,0 +1,15 @@
+body {
+    background-color: lightblue;
+    margin-top: 0px;
+    margin-left: 0px;
+}
+
+#box {
+
+    text-align: center;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
