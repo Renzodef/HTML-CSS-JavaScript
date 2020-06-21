@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.box {
+    position: relative;
+    width: 50%;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.box img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/* Selecting the first image in the second box */
+.box:nth-child(2) img {
+    filter: grayscale(1) contrast(5);
+}
+
+/* Selecting the second image in the second box */
+.box:nth-child(2) img:nth-child(2) {
+    filter: grayscale(1) contrast(1) brightness(2);
+    mix-blend-mode: hard-light;
+}

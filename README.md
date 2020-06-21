@@ -17,7 +17,7 @@ It contains examples of the basic functions of JavaScript, such as conditionals,
 It contains examples and explanations of intermediate and advanced concepts regarding JavaScript, such as DOM manipulation, Prototype Chain, Hoisting, Callback Queue and Promises.
 
 ## Markdown
-It contains examples of the basic functions of Markdown, a Web Markup Language used in Github and many other Web Application.
+It contains examples of the basic functions of Markdown, a Web Markup Language used in Github and many others Web Applications.
 
 ## Node.js Basics
 It contains examples of the basic functions of Node.js, such as asynchronous input/output and HTTP requests.
