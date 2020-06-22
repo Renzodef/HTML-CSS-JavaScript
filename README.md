@@ -22,5 +22,8 @@ It contains examples of the basic functions of Markdown, a Web Markup Language u
 ## Node.js Basics
 It contains examples of the basic functions of Node.js, such as asynchronous input/output and HTTP requests.
 
+## Templates
+It contains templates of elements to use in other projects such as separators, preloaders and social media buttons.
+
 ## WebApps
-It contains examples of little WebApps and templates of elements to use in other projects made with interactions between HTML, CSS and JavaScript.
+It contains examples of little Web Applications made with interactions between HTML, CSS and JavaScript.

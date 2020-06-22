@@ -1,0 +1,30 @@
+body {
+    background: rgb(23, 22, 22);
+}
+
+.preloader {
+    align-items: center;
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    left: 0;
+    position: fixed;
+    top: 0;
+    transition: opacity 0.3s linear;
+    width: 100%;
+    z-index: 9999;
+  }
+
+.box {
+	display: none;
+    text-align: center;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+.box h1 {
+    color: aqua;
+}
