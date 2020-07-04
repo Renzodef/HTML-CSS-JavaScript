@@ -22,6 +22,9 @@ It contains examples of the basic functions of Markdown, a Web Markup Language u
 ## Node.js Basics
 It contains examples of the basic functions of Node.js, such as asynchronous input/output and HTTP requests.
 
+## React Native
+It contains projects and guides on how to create cross-platform applications for Web, Android and iOS with the framework React Native that uses React instead of the native platform languages.
+
 ## Templates
 It contains templates of elements to use in other projects such as separators, preloaders and social media buttons.
 
