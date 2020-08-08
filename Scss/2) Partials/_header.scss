@@ -1,0 +1,13 @@
+//main: main.scss
+.header {
+  max-width: 500px;
+  margin: 0 auto;
+  border: 5px solid $border_color;
+  padding: 5px;
+  p {
+      color: $primary_text_color;
+      strong {
+          color: $secondary_text_color;
+      }
+  }
+}

@@ -1,0 +1,24 @@
+//main: main.scss
+.header {
+  margin: 0 auto;
+  max-width: 500px;
+  border: 5px solid $border_color;
+  padding: 5px;
+  p {
+      color: $primary_text_color;
+      strong {
+          color: $secondary_text_color;
+      }
+  }
+}
+
+.cover {
+  @include background_cover("Mountains.jpg");
+  margin: 0 auto;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  width: 500px;
+  height: 400px;
+  padding: 5px;
+  border: 5px solid $border_color;
+}

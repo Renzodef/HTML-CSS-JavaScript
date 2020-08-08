@@ -25,6 +25,12 @@ It contains examples of the basic functions of Node.js, such as asynchronous inp
 ## React Native
 It contains projects and guides on how to create cross-platform applications for Web, Android and iOS with the framework React Native that uses React instead of the native platform languages.
 
+## Sass
+It contains examples of scripts with Sass, (short for syntactically awesome style sheets) that is a preprocessor scripting language interpreted or compiled into Cascading Style Sheets (CSS). 
+
+## Scss
+It contains examples of scrips with Scss, that is a superset of CSS interpreted or compiled into Cascading Style Sheets (CSS). 
+
 ## Templates
 It contains templates of elements to use in other projects such as separators, preloaders and social media buttons.
 
