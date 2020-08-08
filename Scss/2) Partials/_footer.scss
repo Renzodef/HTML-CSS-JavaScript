@@ -1,10 +1,9 @@
-//main: main.scss
 .footer {
   max-width: 500px;
   margin: 0 auto;
-  border: 5px solid $border_color2;
+  border: 5px solid $border_color;
   padding: 5px;
   p {
-    color: $primary_text_color2;
+    color: $primary_text_color;
   }
 }
