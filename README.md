@@ -2,6 +2,9 @@
 It contains projects and installable .apk files made with the framework Apache Cordova. <br>
 This framework is open source and allows sofware programmers to build applications for Android and iOS using web technologies instead of their native languages.
 
+## CSS
+It contains all the personal examples and material related to CSS, such as Sass, Flebox, Media Queries and some Templates to use in bigger projects.
+
 ## Electron
 It contains projects and guides on how to build executable desktop files with the framework Electron.<br>
 This framework is open source and allows software programmers to build desktop GUI applications using web technologies by combining the Chromium rendering engine and the Node.js runtime.<br>
@@ -24,15 +27,6 @@ It contains examples of the basic functions of Node.js, such as asynchronous inp
 
 ## React Native
 It contains projects and guides on how to create cross-platform applications for Web, Android and iOS with the framework React Native that uses React instead of the native platform languages.
-
-## Sass
-It contains examples of scripts with Sass, (short for syntactically awesome style sheets) that is a preprocessor scripting language interpreted or compiled into Cascading Style Sheets (CSS). 
-
-## Scss
-It contains examples of scrips with Scss, that is a superset of CSS interpreted or compiled into Cascading Style Sheets (CSS). 
-
-## Templates
-It contains templates of elements to use in other projects such as separators, preloaders and social media buttons.
 
 ## WebApps
 It contains examples of little Web Applications made with interactions between HTML, CSS and JavaScript.
