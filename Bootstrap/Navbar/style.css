@@ -1,0 +1,17 @@
+.navbar {
+    border: 5px solid #e3f2fd;
+    background-color: #fdece3;
+}
+
+.paragraphs {
+    background-color: #fdece3;
+    border: 5px solid #e3f2fd;
+    margin-top: 30px;
+    padding: 20px;
+    margin-bottom: 30px;
+}
+
+.navContainer {
+    padding-left: 30px !important;
+    padding-right: 30px !important;
+}
