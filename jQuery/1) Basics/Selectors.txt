@@ -9,3 +9,7 @@ $("h1, p") // all <h1> and all <p> elements
 $("div p") // all <p> elements that are descendants of a <div> element
 
 $("*")  // all elements of the DOM
+
+$(".test")  // all the elements with class "test"
+
+$("#test")  // all the elements with ID "test"
