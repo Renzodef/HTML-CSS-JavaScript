@@ -1,0 +1,23 @@
+/*
+Clearing the Float
+Elements that come after the floating element will flow around it. 
+To avoid this, use the clear property.
+The clear property specifies the sides of an element where other floating elements are not allowed to be.
+
+If we set the float property to a div,
+only the paragraph that comes after the div will be wrapped around the image.
+*/
+.floating {
+    float: right;
+}
+
+/*
+Using clear
+Use the values right, left, and both to specify the sides of 
+an element where other floating elements are not allowed to be.
+
+both is used to clear floats coming from either direction.
+*/
+.clearing {
+    clear: both;
+}

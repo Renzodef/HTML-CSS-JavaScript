@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+
+<head></head>
+
+<!--
+HTML5 brings many features and improvements to web form creation. 
+There are new attributes and input types that were introduced to help create better experiences for web users.
+Form creation is done in HTML5 the same way as it was in HTML4.
+
+NEW ATTRIBUTES
+HTML5 has introduced a new attribute called placeholder. 
+On <input> and <textarea> elements,
+this attribute provides a hint to the user of what information can be entered into the field.
+
+The "required" attribute is used to make the input elements required.
+
+-->
+
+<body>
+    <!--
+    HTML5 has introduced a new attribute called placeholder. 
+    On <input> and <textarea> elements,
+    this attribute provides a hint to the user of what information can be entered into the field.
+    -->
+    <form>
+        <label for="name">Your name: </label>
+        <input type="text" name="email" placeholder="Name" />
+    </form>
+    <hr>
+    <!--
+    The autofocus attribute makes the desired input focus when the form loads.
+    -->
+    <form>
+        <label for="email">Your surname: </label>
+        <input type="text" name="surname" autofocus />
+    </form>
+    <hr>
+    <!--
+    The "required" attribute is used to make the input elements required.
+     -->
+    <form autocomplete="off">
+        <label for="e-mail">Your city: </label>
+        <input name="city" type="text" required />
+        <input type="submit" value="Submit" />
+    </form>
+    <hr>
+    <!--
+    The new search input type can be used to create a search box.
+    -->
+    <p>Search box: </p>
+    <input id="mysearch" name="searchitem" type="search" />
+    <hr>
+    <!--
+    The <datalist> tag can be used to define a list of pre-defined options for the search field.
+    -->
+    <p>Datalist: </p>
+    <input id="car" type="text" list="colors" />
+    <datalist id="colors">
+        <option value="Red">
+        <option value="Green">
+        <option value="Yellow">
+    </datalist>
+    <hr>
+    <!--
+    Some other new input types include email, url, and tel.
+    -->
+    <input id="email" name="email" type="email" placeholder="example@example.com" />
+    <br />
+    <input id="url" name="url" type="url" placeholder="example.com" />
+    <br />
+    <input id="tel" name="tel" type="tel" placeholder="555.555.1211" />
+</body>
+
+</html>

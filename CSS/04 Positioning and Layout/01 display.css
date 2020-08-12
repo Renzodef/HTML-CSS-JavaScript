@@ -1,0 +1,29 @@
+/*
+display: block
+Every element on a web page is a rectangular box.
+The display property determines how that rectangular box behaves. 
+A block element is an element that takes up the fullest width available,
+with line breaks before and after.
+*/
+span {
+    display: block;
+}
+
+/*
+display: inline
+An inline element only takes up as much width as necessary, and does not force line breaks.
+*/
+p {
+    display: inline;
+}
+
+/*
+display:none
+
+display:none hides an element, 
+so it does not take up any space. The element will be hidden, 
+and the page will be displayed as if the element is not there.
+*/
+h1 {
+    display: none;
+}

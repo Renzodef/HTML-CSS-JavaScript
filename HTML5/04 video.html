@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+
+<head></head>
+
+<!--
+The video element is similar to the audio element.
+You can specify the video source URL using an attribute in a video element, 
+or using source elements inside the video element.
+Another aspect that the audio and video elements have in common is that the major browsers 
+do not all support the same file types. If the browser does not support the first video type, 
+it will try the next one.
+
+Attributes of <video>
+Another aspect shared by both the audio and the video elements 
+is that each has controls, autoplay and loop attributes.
+-->
+
+<body>
+    <video controls>
+        <source src="video.mp4" type="video/mp4">
+        <source src="video.ogg" type="video/ogg">
+        Video is not supported by your browser
+    </video>
+</body>
+
+</html>

@@ -20,3 +20,15 @@ for (let i = 0; i < limit; i += 1) {
   total += i;
 }
 console.log(total);
+
+// The for...in loop is intended for iterating over the enumerable keys of an object.
+let obj = {a: 1, b: 2, c: 3};
+for (let v in obj) {
+  console.log(v);
+}
+
+//ES6 introduces the new for...of loop, which creates a loop iterating over iterable objects.
+let list = ["x", "y", "z"];
+for (let val of list) {
+  console.log(val);
+}

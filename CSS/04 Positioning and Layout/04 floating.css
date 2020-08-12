@@ -1,0 +1,27 @@
+/*
+With CSS float, an element can be pushed to the left or right, allowing other elements to wrap around it.
+Float is often used with images, but it is also useful when working with layouts.
+The values for the float property are left, right, and none.
+Left and right float elements in those directions, respectively. 
+none (the default) ensures that the element will not float.
+Below is an example of an image that is floated to the right.
+*/
+img.first {
+    float: right;
+}
+
+/*
+If you place several floating elements one after the other, 
+they will float next to each other if there is enough room.
+As an example, in a print layout, images may be set into the page such that text wraps around them as needed.
+*/
+img.second {
+    float: left;
+    width: 120px;
+    margin-right: 10px;
+}
+
+p.second {
+    width: 120px;
+    float: left;
+}

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+
+<head></head>
+
+<!--
+Before HTML5, there was no standard for playing audio files on a web page.
+The HTML5 <audio> element specifies a standard for embedding audio in a web page.
+
+Attributes of <audio>
+controls
+Specifies that audio controls should be displayed (such as a play/pause button, etc.)
+
+autoplay
+When this attribute is defined, audio starts playing as soon as it is ready, without asking for the visitor's permission.
+<audio controls autoplay>
+
+loop
+This attribute is used to have the audio replay every time it is finished.
+<audio controls autoplay loop>
+
+Currently, there are three supported file formats for the <audio> element: MP3, WAV, and OGG.
+-->
+
+<body>
+    <!--
+    There are two different ways to specify the audio source file's URL. 
+    The first uses the source attribute:
+    -->
+    <audio src="audio.mp3" controls>
+        Audio element not supported by your browser
+    </audio>
+    <!--
+    The second way uses the <source> element inside the <audio> element.
+    Multiple <source> elements can be linked to different audio files. 
+    The browser will use the first recognized format.
+    -->
+    <audio controls>
+        <source src="audio.mp3" type="audio/mpeg">
+        <source src="audio.ogg" type="audio/ogg">
+    </audio>
+</body>
+
+</html>

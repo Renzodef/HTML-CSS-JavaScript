@@ -9,10 +9,10 @@
 let p = new Promise((resolve, reject) => {
     let a = 2
     // True condition
-    if (a == 2) {
+    if (a == 3) {
         resolve('Success')
     } else {
-        figa('Failed')
+        reject('Failed')
     }
 })
 
@@ -26,5 +26,5 @@ p.then((message) => {
 
 /*
 Output:
-This is in the then => Success
+This is in the then => Failed
 */

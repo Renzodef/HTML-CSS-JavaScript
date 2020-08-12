@@ -16,8 +16,11 @@ It contains projects and guides on how to build executable desktop files with El
 ## HTML 
 It contains examples of the basic functions of HTML (HyperText Markup Language), such as lists, tables and forms.
 
+## HTML5
+It contains examples of some features of HTML5 and its differences from HTML4.
+
 ## JavaScript
-It contains examples of the basic functions of JavaScript (such as conditionals, loops, objects and methods regarding strings and arrays and intermediate) and more intermediate concepts (such as DOM manipulation, Prototype Chain, Hoisting, Callback Queue and Promises).
+It contains examples of the basic functions of JavaScript (such as conditionals, loops, objects and methods regarding strings and arrays and intermediate) and more intermediate concepts (such as DOM manipulation, Prototype Chain, Hoisting, Callback Queue and Promises). These examples follow for the most cases the standard ES6 (ECMAScript 6).
 
 ## Markdown
 It contains examples of the basic functions of Markdown: a Web Markup Language used in Github and many others Web Applications.
