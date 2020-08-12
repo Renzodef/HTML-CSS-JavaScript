@@ -1,0 +1,5 @@
+body {
+    background-image: url("Logo.png");
+    background-repeat: no-repeat;
+    background-attachment: fixed; /* scroll to make it scroll with the page */
+}

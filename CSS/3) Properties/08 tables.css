@@ -1,0 +1,32 @@
+table.first {
+    border-collapse: separate;
+    border-spacing: 20px 40px;
+}
+
+caption {
+    caption-side: top;
+}
+
+table.second {
+    border-collapse: separate;
+    empty-cells: hide;
+}
+
+table.auto td, table.fixed td {
+    border: 1px solid gray;
+}
+
+table.auto {
+    border-collapse: separate;
+    width: 50%;
+    border: 1px solid gray;
+    table-layout: auto;
+}
+
+
+table.fixed {
+    border-collapse: separate;
+    width: 50%;
+    border: 1px solid gray;
+    table-layout: fixed;
+}

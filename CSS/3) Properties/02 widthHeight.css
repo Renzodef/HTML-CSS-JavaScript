@@ -1,0 +1,22 @@
+div.first {
+    border: 5px solid green;
+    width: 90px;
+    height: 90px;
+}
+
+div.second {
+    margin-top: 50px;
+    border: 5px solid green;
+    width: 100%;
+    height: 90px;
+}
+
+p.first {
+    border: 5px solid green;
+    min-height: 100px;
+}
+
+p.second {
+    border: 5px solid green;
+    max-width: 100px;
+}

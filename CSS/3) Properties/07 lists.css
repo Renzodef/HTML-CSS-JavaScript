@@ -1,0 +1,22 @@
+ol.lower-alpha {
+    list-style-type: lower-alpha;
+}
+
+ul.circle {
+    list-style-type: circle;
+}
+
+ul.square {
+    list-style-type: square;
+}
+
+ul.custom {
+    list-style-image: url("Logo.png");
+    list-style-position: inside;
+}
+
+ul.outside {
+    list-style-type: square;
+    list-style-position: inside;
+    list-style-image: none;
+}

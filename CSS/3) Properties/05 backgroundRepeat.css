@@ -1,0 +1,11 @@
+body {
+    background-image: url("Logo.png");
+    background-repeat: repeat-x;
+}
+
+p {
+    background-image: url("Logo.png");
+    background-repeat: inherit;
+    margin-top: 200px;
+    height: 150px;
+}

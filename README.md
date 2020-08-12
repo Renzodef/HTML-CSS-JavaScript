@@ -19,9 +19,6 @@ It contains examples of the basic functions of HTML (HyperText Markup Language),
 ## JavaScript
 It contains examples of the basic functions of JavaScript (such as conditionals, loops, objects and methods regarding strings and arrays and intermediate) and more intermediate concepts (such as DOM manipulation, Prototype Chain, Hoisting, Callback Queue and Promises).
 
-## jQuery
-It contains examples of the basic functions of jQuery: an open source JavaScript library designed to simplify HTML DOM tree traversal and manipulation, as well as event handling, CSS animation, and Ajax.
-
 ## Markdown
 It contains examples of the basic functions of Markdown: a Web Markup Language used in Github and many others Web Applications.
 
@@ -39,3 +36,6 @@ It contains templates of elements to use in other projects, such as separators, 
 
 ## WebApps
 It contains examples of little Web Applications made with interactions between HTML, CSS and JavaScript.
+
+## jQuery
+It contains examples of the basic functions of jQuery: an open source JavaScript library designed to simplify HTML DOM tree traversal and manipulation, as well as event handling, CSS animation, and Ajax.
