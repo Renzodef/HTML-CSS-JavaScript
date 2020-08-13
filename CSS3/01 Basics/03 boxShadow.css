@@ -1,0 +1,22 @@
+/*
+The box-shadow Property
+The CSS3 box-shadow property applies shadow to elements.
+Components of the box-shadow property are decoded by browsers in the following manner:
+- The first length for the horizontal offset will cast the shadow to the right of the box (required)
+- The second length is for the vertical offset that will cast the shadow to below the box (required)
+- The blur radius (optional)
+- The spread radius (optional)
+- The color of the shadow (optional)
+
+Negative values can also be used for the box-shadow property.
+horizontal offset - the shadow will be to the left of the box
+vertical offset - the shadow will be above the box
+blur radius - negative values are not allowed
+spread radius - negative values will cause the shadow to shrink
+*/
+div {
+    width: 300px;
+    height: 100px;
+    background-color: #9ACD32;
+    box-shadow: 10px 10px 5px 5px #888888;
+}

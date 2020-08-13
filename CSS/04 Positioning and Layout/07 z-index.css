@@ -1,0 +1,38 @@
+/*
+The z-index Property
+When elements are positioned outside the normal flow, they can overlap other elements.
+The z-index property specifies the stack order of an element 
+(which element should be placed in front of, or behind, the others).
+The red box would overlap the blue box, because it was placed later in the HTML markup.
+The z-index property can change this order.
+*/
+.blue {
+    background-color: #8EC4D0;
+    margin-bottom: 15px;
+    width: 120px;
+    height: 120px;
+    color: #FFF;
+}
+
+.red {
+    background-color: #FF4D4D;
+    position: relative;
+    width: 120px;
+    height: 120px;
+    color: #FFF;
+    margin-top: -50px;
+    margin-left: 50px;
+}
+
+/*
+Assigning a higher z-index value to the blue div and a lower 
+z-index value to the red div will make the blue box overlap the red one.
+*/
+.blue {
+    z-index: 3; 
+    position: relative;
+ }
+ .red {
+    z-index: 2;
+    position: relative;
+ }

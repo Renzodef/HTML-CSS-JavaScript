@@ -1,0 +1,27 @@
+/*
+transform-origin
+The transform-origin property allows you to change the position of transformed elements. 
+The default value for the property is 50% 50%, which corresponds to the center of the element.
+In the example below, we use the transform-origin property together with transform-rotate. 
+The origin of the x-axis (horizontal) is set to 25% from the left. 
+The origin for the y-axis (vertical) is set to 75% from above.
+0 0 is the same value as top left, and 100% 100% is the same value as bottom right.
+The transform-origin property must be used together with the transform property.
+*/
+div.empty-div {
+    position: relative;
+    height: 100px;
+    width: 100px;
+    margin: 30px;
+    padding: 10px;
+    border: 1px solid black;
+}
+
+div.green-div {
+    padding: 50px;
+    position: absolute;
+    background-color: #8bc34a;
+    border: 1px solid white;
+    transform: rotate(15deg);
+    transform-origin: 25% 75%;
+}

@@ -1,0 +1,61 @@
+/*
+The @keyframes Rule
+When you specify CSS styles inside the @keyframes rule, 
+the animation will gradually change from the current style to the new style at certain times.
+To get an animation to work, you must bind the animation to an element.
+The following example will change the background color of an element two times: 
+when the animation is 50% complete and when the animation is 100% complete.
+As an alternative to using percentages, you can use from and to keywords, where:
+from is a starting offset of 0%
+to is an ending offset of 100%.
+The two examples below are equivalent, and produce the same result:
+
+@keyframes colorchange {
+   0% {background-color: red;}
+   100% {background-color: green;}
+}
+
+@keyframes colorchange {
+   from {background-color: red;}
+   to {background-color: green;}
+}
+*/
+
+div {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    animation-name: colorchange;
+    animation-duration: 1s;
+    /* colorchange is the animation name. */
+    -webkit-animation-name: colorchange;
+    -webkit-animation-duration: 1s;
+}
+
+@keyframes colorchange {
+    0% {
+        background-color: red;
+    }
+
+    50% {
+        background-color: green;
+    }
+
+    100% {
+        background-color: blue;
+    }
+}
+
+@-webkit-keyframes colorchange {
+    0% {
+        background-color: red;
+    }
+
+    50% {
+        background-color: green;
+    }
+
+    100% {
+        background-color: blue;
+    }
+}

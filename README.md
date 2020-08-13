@@ -8,7 +8,10 @@ It contains templates and examples made with Bootstrap: a free and open-source C
 It contains projects and installable .apk files made with Apache Cordova: an open source framework that allows sofware programmers to build applications for Android and iOS using web technologies instead of their native languages.
 
 ## CSS
-It contains examples of the basic and intermediate functions of CSS (Cascading Style Sheets).
+It contains examples of the basic functions of CSS (Cascading Style Sheets), such as text, positioning and layout properties.
+
+## CSS3
+It contains examples of some features introduced with CSS3, such as rounded corners, shadows, transitions or animations, filters and media queries.
 
 ## Electron
 It contains projects and guides on how to build executable desktop files with Electron: an open source framework that allows software programmers to build desktop GUI applications using web technologies by combining the Chromium rendering engine and the Node.js runtime.
@@ -17,7 +20,7 @@ It contains projects and guides on how to build executable desktop files with El
 It contains examples of the basic functions of HTML (HyperText Markup Language), such as lists, tables and forms.
 
 ## HTML5
-It contains examples of some features of HTML5 and its differences from HTML4.
+It contains examples of some new features introduced with HTML5, such as new semantic elements (header, nav, footer), progress bars and enhanced forms.
 
 ## JavaScript
 It contains examples of the basic functions of JavaScript (such as conditionals, loops, objects and methods regarding strings and arrays and intermediate) and more intermediate concepts (such as DOM manipulation, Prototype Chain, Hoisting, Callback Queue and Promises). These examples follow for the most cases the standard ES6 (ECMAScript 6).

@@ -1,0 +1,14 @@
+/*
+Multiple Transforms
+Multiple transforms can be used at once. 
+Rotating and scaling the size of an element at the same time is an example of that.
+Applying multiple transforms to an element is simple; just separate them using spaces.
+*/
+div{
+    width: 200px;
+    height: 100px;
+    background-color: #8BC34A;
+    transform: rotate(45deg) translate(100px);
+    -webkit-transform: rotate(45deg) translate(100px);
+    color:white;
+}

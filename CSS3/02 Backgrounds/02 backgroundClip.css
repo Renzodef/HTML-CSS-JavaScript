@@ -1,0 +1,20 @@
+/*
+The background-clip Property
+The background-clip property specifies the painting area of the background.
+The property takes three different values:
+border-box - (default) the background is painted to the outside edge of the border
+padding-box - the background is painted to the outside edge of the padding
+content-box - the background is painted within the content box
+*/
+#first {
+    border: 2px dotted black;
+    padding: 20px;
+    background: LightBlue;
+    background-clip: padding-box;
+}
+#second {
+    border: 2px dotted black;
+    padding: 20px;
+    background: LightBlue;
+    background-clip: content-box;
+}

@@ -1,0 +1,18 @@
+/*
+The CSS pseudo-classes allow us to style elements, 
+or parts of elements, that exist in the document tree without
+using JavaScript or any other scripts. 
+A pseudo-class starts with a ":" (colon).
+The most commonly used pseudo-classes are :first-child and :last-child.
+The :first-child pseudo-class matches an element that is the first child element of some other element.
+The :last-child pseudo-class matches an element that is the last child element of some other element.
+*/
+#parent p:first-child {
+    color: green;
+    text-decoration: underline;
+}
+
+#parent p:last-child {
+    color: green;
+    text-decoration: underline;
+}

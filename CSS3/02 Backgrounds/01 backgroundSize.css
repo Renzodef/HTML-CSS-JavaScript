@@ -1,0 +1,37 @@
+/*
+The background-size Property
+The background-size property adds new functionality to CSS that allows us to specify the size of background images,
+using either lengths or percentages.
+
+The background-size Values
+The two other possible values for background size are the keywords contain and cover.
+The contain keyword scales the image so that it fits the container.
+In other words, the image will grow or shrink proportionally, 
+but the width and height will not exceed the container's dimensions.
+*/
+div.first {
+    height: 150px;
+    width: 200px;
+    border: 1px solid #000;
+    background: url("Logo.png") no-repeat 50% 50%;
+    background-size: 100px 100px;
+    float:left;
+}
+
+div.second {
+    height: 150px;
+    width: 200px;
+    border: 1px solid #000;
+    background: url("Logo.png") no-repeat 50% 50%;
+    background-size: contain;
+    float: left;
+}
+
+div.third {
+    height: 150px;
+    width: 200px;
+    border: 1px solid #000;
+    background: url("Logo.png") no-repeat 50% 50%;
+    background-size: cover;
+    float: left;
+}

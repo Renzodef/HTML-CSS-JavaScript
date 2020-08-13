@@ -1,0 +1,76 @@
+/*
+The animation-name Property
+animation-name property defines which animation to use.
+
+The animation-duration Property
+The animation-duration property specifies the duration of the selected animation in seconds.
+If the animation name does not match any keyframe rule, the animation will not execute.
+
+The animation-timing-function Property
+It can have the following values:
+ease - specifies an animation with a slow start, then fast, then end slowly (this is default)
+linear - specifies an animation with the same speed from start to end
+ease-in - specifies an animation with a slow start
+ease-out - specifies an animation with a slow end
+ease-in-out - specifies an animation with a slow start and end
+cubic-bezier(n,n,n,n) - lets you define your own values in a cubic-bezier function
+
+More Animation Properties
+The animation-iteration-count property determines the number of times an animation repeats.
+For example, you can set the animation to run 5 times:
+animation-iteration-count: 5;
+To make the animation repeat forever, just use the infinite value:
+animation-iteration-count: infinite;
+The animation-direction indicates how the keyframe should be applied.
+The values can be set as:
+normal - the default value, which means it plays forward from 0 % to 100%.
+reverse - plays the keyframe in an opposite direction from 100 % to 0%
+alternate - the animation first runs forward, then backward, then forward.
+alternate-reverse - the animation first runs backward, then forward, then backward.
+If you use 0 or a negative number for the animation-iteration-count, the animation will never start.
+
+Consider the following example:
+
+div {
+   animation-name: colorchange;
+   animation-duration: 3s;
+   animation-timing-function: ease-in;
+   animation-delay: 1s;
+   animation-iteration-count: infinite;
+   animation-direction: reverse;
+}
+
+A single animation property can be used to achieve the same result as the above code:
+
+div { 
+   animation: colorchange 3s ease-in 1s infinite reverse;
+}
+*/
+
+div {
+    animation: colorchange 3s ease-in 1s infinite alternate;
+    -webkit-animation: colorchange 3s ease-in 1s infinite alternate;
+    height: 100px;
+    background-color: red;
+    width: 0px;
+}
+
+@keyframes colorchange {
+    from {
+        width: 0px;
+    }
+
+    to {
+        width: 100px;
+    }
+}
+
+@-webkit-keyframes colorchange {
+    from {
+        width: 0px;
+    }
+
+    to {
+        width: 100px;
+    }
+}

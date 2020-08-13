@@ -1,0 +1,15 @@
+/*
+Multiple Backgrounds
+The ability to have multiple background images is a new feature in CSS3.
+Multiple background images are specified using a comma-separated list of values 
+for the background-image property. 
+The first image will appear on the top, the last on the bottom.
+The position of the background images can be changed, using the background-position property.
+*/
+div {
+    width: 800px;
+    height: 600px;
+    background-image: url("Logo.png"), url("BetterCode.jpg");
+    background-position: left top, left top;
+    background-repeat: no-repeat;
+}

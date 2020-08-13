@@ -1,0 +1,67 @@
+/*
+The grayscale function converts an image to grayscale.
+The only parameter defines the proportion of the conversion.
+0% grayscale is the original image, whereas 100% makes the image completely grayscale.
+*/
+.grayscale {
+    filter: grayscale(100%);
+}
+
+/*
+he sepia function converts an image to sepia.
+This is similar to using grayscale but with a reddish-brown color tone.
+The idea behind sepia filters is that they can make black and white photos look a bit 
+more eye-catching than the basic grayscale version.
+0% sepia is the original image, whereas 100% converts the image to sepia completely.
+*/
+.sepia {
+    filter: sepia(100%);
+}
+
+/*
+The saturate function controls the color saturation for an image. 
+The only parameter determines the proportion of the saturation that is applied to the image.
+The parameter can be either a percentage value or a number.
+0% creates a completely unsaturated image (grayscale), whereas 100% is the original image.
+*/
+.saturate {
+    filter: saturate(2.5);
+}
+
+/*
+The hue-rotate function applies a hue rotation (based on the color circle) to an image.
+The function takes an angle of rotation as its parameter. 
+The value of angle defines the number of degrees around the color circle the input samples will be adjusted.
+When you use hue-rotate() to rotate the hue, you are rotating around a color circle.
+If the image contains red color, which is at 0 degrees on the color circle, 
+rotating the hue by 240deg will make the red color blue.
+0 and 360deg rotations leave the image unchanged.
+*/
+.hue-rotate {
+  filter: hue-rotate(180deg);
+}
+
+/*
+The invert function inverts the colors of an image to make dark areas bright and bright areas dark.
+The function takes the proportion of the conversion as its parameter.
+The parameter can be either a percentage value or a number.
+0% invert leaves the image unchanged, 
+whereas 100% creates a completely inverted image that is similar to a photographic negative.
+*/
+.invert {
+  filter: invert(70%);
+}
+
+/*
+drop-shadow(w h b c) creates a shadow effect that extends beyond an 
+image for the width w and height h with blur b and color c.
+w, h, and b are values in pixels.
+Positive values create the shadow to the right and below the image.
+Negative width and height values create the shadow above and to the left of the image.
+*/
+.dropshadow {
+  filter: drop-shadow(5px 9px 2px blue);
+} 
+Try It Yourself
+
+

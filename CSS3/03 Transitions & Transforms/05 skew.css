@@ -1,0 +1,12 @@
+/*
+The skew() Method
+The skew() method skews an element along the x-axis and the y-axis by the given angles.
+The following example skews the <div> element by 30 degrees along the X-axis.
+*/
+div {
+    padding: 50px;
+    position: absolute;
+    background-color: #32CD32;
+    transform: skew(30deg);
+    -webkit-transform: skew(30deg);
+}

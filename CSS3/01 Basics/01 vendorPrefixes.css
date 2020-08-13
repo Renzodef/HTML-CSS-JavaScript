@@ -1,0 +1,29 @@
+/*
+CSS vendor prefixes or CSS browser prefixes are a way for browser makers to add support for new 
+CSS features during periods of testing and experimentation. 
+Browser prefixes are used to add new features that may not be part of the final and formal CSS specification.
+For example, the prefix for Safari and Chrome is -webkit. 
+The border-radius property is currently supported in Chrome, Safari, and Mozilla, 
+as long as it is accompanied by the browser prefix.
+To specify the border-radius in Chrome and Safari, the following syntax is used:
+-webkit-border-radius: 24px;
+*/
+.round {
+    -webkit-border-radius: 24px;
+    border-radius: 24px;
+    border: 1px solid green;
+    width: 200px;
+    padding: 25px;
+}
+
+/*
+List of Vendor Prefixes
+-moz- (Firefox)
+-o- (Opera)
+-ms- (Internet Explorer)
+-webkit- (Safari, Chrome)
+It might feel annoying and repetitive to have to write the properties two to five 
+times to get them to work in all browsers, but it's temporary. 
+As browsers improve, they add support for the standards based version of the properties, 
+and you can remove the prefixed versions.
+*/

@@ -1,0 +1,6 @@
+/*
+Multiple CSS filters can be used together by separating them with spaces.
+*/
+.filtered {
+    filter: saturate(30%) drop-shadow(5px 9px 2px gray) blur(1px);
+}

@@ -1,0 +1,14 @@
+/*
+The translate() Method
+The translate() method moves an element from its current position 
+(according to the parameters given for the x-axis and the y-axis). 
+Positive values will push an element down and to the right of its default position, 
+while negative values will pull an element up and to the left of its default position.
+In this example below, the div element is moved 100px to the right and 50px down:
+*/
+div {
+   padding: 50px;
+   position: absolute;
+   background-color: #32CD32;
+   transform:translate(100px, 50px);
+}

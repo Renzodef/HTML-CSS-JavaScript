@@ -1,0 +1,13 @@
+/*
+Working with Pseudo Elements
+Pseudo elements are used to select specific parts of an element.
+There are five pseudo elements in CSS, each starting with a double colon (::):
+::first-line - the first line of the text in a selector
+::first-letter - the first letter of the text in a selector
+::selection - selects the portion of an element that is selected by a user
+::before - inserts some content before an element
+::after - inserts some content after an element
+*/
+p::selection {
+    color: #589432;
+}

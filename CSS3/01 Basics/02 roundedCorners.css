@@ -1,0 +1,34 @@
+/*
+With CSS3, you can give any element "rounded corners" by using the border-radius property.
+*/
+div.zero {
+    border-radius: 20px;
+    background-color: green;
+    color: white;
+    padding: 50px;
+}
+
+/*
+Specific border radius values can be applied for the border-radius 
+property in the following order: top-left, top-right, bottom-right, bottom-left.
+*/
+div.first {
+    margin-top: 100px;
+    border-radius: 0 0 20px 20px;
+    background-color: green;
+    color: white;
+    padding: 50px;
+}
+
+/*
+By setting the border radius equal to half of the height and the width
+the corners will be rounded to form a circle.
+*/
+div.second {
+    margin-top: 100px;
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+    background-color: green;
+    color: white;
+ }

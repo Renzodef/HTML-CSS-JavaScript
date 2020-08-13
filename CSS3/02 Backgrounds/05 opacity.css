@@ -1,0 +1,14 @@
+/*
+The opacity Property
+CSS opacity property provides an excellent means of adding opacity to any element.
+In the example below, we set different levels of opacity to the same picture, so you can clearly see the difference.
+*/
+#img1 {
+   opacity: 1;
+}
+#img2 {
+   opacity: 0.5;
+}
+#img3 {
+   opacity: 0.25;
+}

@@ -1,0 +1,44 @@
+/*
+The opacity function sets the opacity of an image to change its transparency.
+0% opacity creates a completely transparent image, whereas 100% is the original image.
+*/
+.opacity {
+    filter: opacity(50%);
+}
+
+/*
+The brightness(amount) function adjusts the brightness of an image, making it appear brighter or darker.
+The amount parameter determines the brightness level of the image. 
+The parameter can take either a percentage value or a number.
+A value of 0% results in an image that is completely black.
+A value of 100% results in an image that is unchanged.
+Any amount over 100% produces a brighter image.
+A value under 100% darkens the image, while a value over 100% brightens it.
+A number value of 0.5 has the same effect as the percentage value of 50%. 
+A value of 1 is the same as 100%.
+*/
+.brightness {
+    filter: brightness(50%);
+}
+
+/*
+The contrast function adjusts the contrast of the image.
+The amount parameter can take either a percentage value or a number.
+A value under 100% decreases the contrast, while a value over 100% increases it.
+A value of 0% will create an image that is completely gray, while a value of 100% leaves the image unchanged.
+The value 0.5 corresponds to 50%, while 1 is the same as 100%.
+*/
+.contrast {
+    filter: contrast(0.5);
+}
+
+/*
+he blur function applies a blur effect to an image.
+The blur function has only one parameter, radius, which defines how many pixels on the screen blend into each other. 
+(a larger value creates more blur).
+The parameter is specified as a CSS length, but does not accept percentage values.
+*/
+.blur {
+  filter: blur(5px);
+}
+

@@ -1,0 +1,18 @@
+/*
+The word-wrap Property
+The word-wrap property allows long words to be broken and wrapped into the next line. 
+It takes two values: normal and break-word.
+*/
+p.first {
+    width: 210px; 
+    height: 100px;
+    border: 1px solid #000000;
+    word-wrap: normal;
+}
+
+p.second {
+    width: 210px; 
+    height: 100px;
+    border: 1px solid #000000;
+    word-wrap: break-word;
+}
