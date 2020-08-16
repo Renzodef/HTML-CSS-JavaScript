@@ -40,6 +40,9 @@ It contains examples of the basic functions of Sass (Syntactically Awesome Style
 ## Templates
 It contains templates of elements to use in other projects, such as separators, preloaders and social media buttons.
 
+## W3.CSS
+It contains templates made with W3.CSS: a modern CSS framework with support for desktop, tablet, and mobile design by default. 
+
 ## WebApps
 It contains examples of little Web Applications made with interactions between HTML, CSS and JavaScript.
 
