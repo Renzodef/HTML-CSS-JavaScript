@@ -71,7 +71,7 @@ body {
 
 /* Cover */
 .cover {
-    height: 80%;
+    height: 100%;
     background-image: url("Image.jpg");
     background-size: cover;
     -o-background-size: cover;
@@ -99,7 +99,7 @@ body {
 
 .cover__caption__copy {
     display: table-cell;
-    padding-top: 12.5vh;
+    padding-top: 17.5vh;
     text-align: center;
     color: white;
 }
@@ -133,10 +133,6 @@ body {
 
     .cover {
         height: 100%;
-    }
-
-    .cover__caption__copy {
-        padding-top: 17.5vh;
     }
 
 }
