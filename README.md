@@ -1,3 +1,6 @@
+## AJAX
+It contains examples about AJAX (Asynchronous JavaScript and XML): a set of web development techniques using many web technologies on the client side to create asynchronous web applications. 
+
 ## BEM
 It contains a template made with BEM (Block Element Modifier): a naming convention that makes front-end code easier to read and understand, easier to work with, easier to scale, more robust and explicit, and a lot more strict.
 
